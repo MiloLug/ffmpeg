@@ -20,9 +20,12 @@
 #include "libavutil/cuda_check.h"
 #include "libavutil/opt.h"
 #include "libavutil/pixdesc.h"
+#include "libavutil/mem.h"
 
 #include "avfilter.h"
 #include "internal.h"
+#include "formats.h"
+#include "video.h"
 
 #include "cuda/load_helper.h"
 
